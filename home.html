@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Página Favorita</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="page">
+        <div class="card">
+            <div class="badge">✦ Exclusiva</div>
+            <h1 class="title">Tu Scort Favorita</h1>
+            <p class="subtitle">Contenido privado y exclusivo</p>
+            <div class="status">
+                <span class="dot"></span> Disponible ahora
+            </div>
+
+            <button class="btn-reveal" onclick="mostrar()">
+                <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                    <circle cx="12" cy="12" r="3"/>
+                </svg>
+                Mostrar imagen
+            </button>
+
+            <div class="divider"></div>
+            <div class="img-wrap" id="imgWrap">
+                <button><img id="imagen" src="IMG/IMAGEN1.webp" alt="Imagen exclusiva"></button>
+                <button><img id="imagen" src="IMG/IMAGEN2.webp" alt="Imagen exclusiva"></button>
+                <button><img id="imagen" src="IMG/IMAGEN3.webp" alt="Imagen exclusiva"></button>
+            </div>
+
+            <p class="footer-text">© 2026 · Contenido privado</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
